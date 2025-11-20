@@ -14,6 +14,9 @@ import Picture3 from '../assets/img3.jpg'
 import Picture4 from '../assets/img4.jpg'
 import TeamCard from '../component/TeamCard.jsx'
 import TeamImg1 from '../assets/teamimg1.jpg'
+import TeamImg2 from '../assets/teamimg2.jpg'
+import TeamImg3 from '../assets/teamimg3.jpg'
+import Mail from '../assets/mail1.png'
 
 const services = [
     {
@@ -59,8 +62,18 @@ const testimonials = [
 const teams = [
     {
         img: TeamImg1,
-        name: "John Doe",
-        role: "CEO"
+        name: "Vanessa Laird",
+        role: "UI Designer"
+    },
+    {
+        img: TeamImg2,
+        name: "Mason Campbell",
+        role: "UI Designer"
+    },
+    {
+        img: TeamImg3,
+        name: "Irea Evans",
+        role: "Client Manager"
     }
 ]
 
@@ -72,9 +85,9 @@ function Home() {
                     <div className='flex justify-between items-center gap-20 py-20'>
                         <div className='flex flex-col justify-center items-start gap-6'>
                             <div>
-                                <h1 className='text-[48px] font-bold leading-[56px] text-black max-w-[540px] '>We boost
+                                <h1 className='text-[48px] font-bold leading-14 text-black max-w-[540px] '>We boost
                                     growth for your statup business</h1>
-                                <p className='text-[18px] leading-[32px] text-gray-600 font-medium  max-w-[540px] mt-6 mb-8'>Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment</p>
+                                <p className='text-[18px] leading-8 text-gray-600 font-medium  max-w-[540px] mt-6 mb-8'>Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment</p>
                             </div>
                             <div className='flex flex-row gap-4 items-center'>
                                 <button className='px-6 py-3 bg-[#FF6600] text-white rounded-[10px] mr-4 cursor-pointer '>Get Started</button>
@@ -94,7 +107,7 @@ function Home() {
                         <div className='flex flex-col justify-center items-center gap-6'>
                             <div className='flex flex-col justify-center items-center'>
                                 <h2 className='text-[14px]  max-w-[540px] uppercase'>Services</h2>
-                                <span className='text-[36px] font-bold leading-[44px] text-black max-w-[540px] mt-6 mb-8'>Our Vison & Our Goal</span>
+                                <span className='text-[36px] font-bold leading-11 text-black max-w-[540px] mt-6 mb-8'>Our Vison & Our Goal</span>
                             </div>
                             <div className='grid grid-cols-3 gap-[57px]'>
                                 {services.map((service, index) => (
@@ -132,7 +145,7 @@ function Home() {
                         <div className='flex flex-col justify-center items-center gap-6'>
                             <div className='flex flex-col justify-center items-center'>
                                 <h2 className='text-[14px]  max-w-[540px] uppercase'>TESTMONIALS</h2>
-                                <span className='text-[36px] font-bold leading-[44px] text-black max-w-[540px] mt-6 mb-8'>What Clients say about us</span>
+                                <span className='text-[36px] font-bold leading-11 text-black max-w-[540px] mt-6 mb-8'>What Clients say about us</span>
                             </div>
                             <div className='grid grid-cols-2 gap-[30px]'>
                                 {testimonials.map((testimonial, index) => (
@@ -148,15 +161,15 @@ function Home() {
                     </div>
                 </div>
             </section>
-                        <section>
+            <section>
                 <div className='w-full max-w-[1170px] mx-auto '>
                     <div className='flex justify-between items-center gap-20 py-20'>
                         <div className='flex flex-col justify-center items-center gap-6'>
                             <div className='flex flex-col justify-center items-center'>
                                 <h2 className='text-[14px]  max-w-[540px] uppercase'>OUR TEAM</h2>
-                                <span className='text-[36px] font-bold leading-[44px] text-black max-w-[540px] mt-6 mb-8'>Meet The Team</span>
+                                <span className='text-[36px] font-bold leading-11 text-black max-w-[540px] mt-6 mb-8'>Meet The Team</span>
                             </div>
-                            <div className='grid grid-cols-3 gap-[57px]'>
+                            <div className='grid grid-cols-3 gap-[30px]'>
                                 {teams.map((team, index) => (
                                     <TeamCard
                                         key={index}
@@ -165,6 +178,28 @@ function Home() {
                                         role={team.role}
                                     />
                                 ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className='w-full max-w-[1170px] mx-auto '>
+                    <div className='flex justify-between items-center gap-20 py-20'>
+                        <div className='flex flex-col justify-center items-center gap-6'>
+                            <div className='flex flex-col justify-center items-center'>
+                                <h2 className='text-[14px]  max-w-[540px] uppercase'>OUR TEAM</h2>
+                                <span className='text-[36px] font-bold leading-11 text-black max-w-[540px] mt-6 mb-8'>Subscribe Our Newsletter</span>
+                            </div>
+                            <div className='flex flex-row gap-[49px] '>
+                                <div className='flex flex-row justify-center items-center '>
+                                    <img src={Mail} alt="" />
+                                </div>
+                                <div className='flex flex-col'>
+                                    <p className="text-[18px] font-['Roboto',sans-serif]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                                    <input type="email" placeholder="Your E-mail here..."  className="border-2 mt-[23px] mb-[51px] px-[67px] py-6 rounded-[49px] shadow-2xl border-gray-200 text-[24px] font-['Roboto',sans-serif] text-[#000000] "/>
+                                    <button className="px-[30px] py-2.5 bg-[#FF6600] rounded-[10px] text-white cursor-pointer w-full">Subscribe Our Newsletter</button>
+                                </div>
                             </div>
                         </div>
                     </div>
