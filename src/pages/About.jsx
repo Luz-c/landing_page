@@ -86,7 +86,7 @@ function About() {
                                 Fondée il y a 5 ans avec la vision de simplifier le marketing numérique et le design pour les startups, notre entreprise a grandi grâce à un engagement inébranlable envers la qualité et la transparence. Nous croyons que chaque marque, quelle que soit sa taille, mérite une présence en ligne puissante.
                             </p>
                             <p className='text-[18px] leading-8 text-gray-600'>
-                                Nos valeurs fondamentales — **Innovation, Intégrité et Impact** — guident chacune de nos décisions. Nous travaillons en étroite collaboration avec nos clients pour créer des solutions qui ne sont pas seulement belles, mais qui génèrent de réels résultats commerciaux.
+                                Nos valeurs fondamentales Innovation, Intégrité et Impact ,guident chacune de nos décisions. Nous travaillons en étroite collaboration avec nos clients pour créer des solutions qui ne sont pas seulement belles, mais qui génèrent de réels résultats commerciaux.
                             </p>
                         </div>
                     </div>
