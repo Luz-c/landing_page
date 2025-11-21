@@ -1,6 +1,6 @@
 
 import React from 'react'
-import BannerImage from '../assets/image-hero.png'
+import BannerImage from '../assets/imagehero.png'
 import LearMoreIcone from '../assets/learn-icon.svg'
 import ServiceCard from '../component/ServiceCard.jsx'
 import ChartIcon from '../assets/chart.png'
