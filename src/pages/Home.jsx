@@ -6,7 +6,7 @@ import ServiceCard from '../component/ServiceCard.jsx'
 import ChartIcon from '../assets/Chart.png'
 import VideoIcon from '../assets/Video.png'
 import ActivityIcon from '../assets/Activity.png'
-import VideoPlayer from '../assets/videoPlayer.png'
+import videoPlayer from '../assets/videoPlayer.png'
 import Testimonial from '../component/Testimonial.jsx'
 import Picture1 from '../assets/img1.jpg'
 import Picture2 from '../assets/img2.jpg'
@@ -134,7 +134,7 @@ function Home() {
                             <button className='px-6 py-3 bg-white text-[#1E0E62] text-bold text-[16px] border-2 border-[#EBEAED] rounded-[100px] cursor-pointer'>Explore</button>
                         </div>
                         <div>
-                            <img src={VideoPlayer} alt="Video Player" />
+                            <img src={videoPlayer} alt="Video Player" />
                         </div>
                     </div>
                 </div>
