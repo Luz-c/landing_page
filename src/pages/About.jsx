@@ -77,7 +77,7 @@ function About() {
                 <div className='w-full max-w-[970px] mx-auto px-4'>
                     <div className='flex flex-col items-center text-center'>
                         <div className='flex flex-col justify-center items-center'>
-                            <h2 className='text-[14px]  max-w-[540px] uppercase'>About me</h2>
+                            <h2 className='text-[14px]  max-w-[540px] uppercase'>About</h2>
                             <span className='text-[36px] font-bold leading-11 text-black max-w-[540px] mt-6 mb-8'>What Clients say about us</span>
                         </div>
 
