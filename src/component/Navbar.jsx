@@ -19,13 +19,14 @@ function Navbar() {
                 <div className=' w-full max-w-[1170px] mx-auto '>
                     <div className='flex justify-between py-12 gap-[114px] items-center'>
                         <div className='w-60 ' >
-                            <img src={Logo} alt="Logo" />
+                            <a href="/">
+                            <img src={Logo} alt="Logo" /></a>
                         </div>
                         <div className='flex w-full justify-between items-center'>
                             <nav>
                                 <ul className='flex gap-8'>
                                     <li><a href="/" className='font-semibold'>Home</a></li>
-                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="/about">About Us</a></li>
                                     <li><a href="#">Our App</a></li>
                                     <li><a href="#">Contacts</a></li>
                                 </ul>

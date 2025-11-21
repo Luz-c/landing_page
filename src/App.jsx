@@ -8,6 +8,7 @@ import Home from './pages/Home.jsx'
 import LoginPage from './pages/Login.jsx'
 import RegisterPage from './pages/Register.jsx'
 import Footer from './component/Footer.jsx'
+import About from './pages/About.jsx'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </>
